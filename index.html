@@ -1,0 +1,146 @@
+ <!doctype html>
+<htmt lang="es">
+<head>
+<title>Arte sublime</title>
+<meta charset="utf-8"/>
+<link href="Estilos.css"rel="stylesheet"/>
+<link rel="shortcut icon" href="Imagenes/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="contenedor">
+<!--h1 se utiliza para titulares-->
+<header>
+    <h1>Arte sublime</h1>
+    <img class="imagen_logo" src="Imagenes/logo.png" alt="Logo arte sublime" width="100";/>
+</header>
+<nav id="header">
+    <ul>
+        <li><a href="" target="">Inicio</a></li>
+        <li><a href="documento 2.html" target="">Galeria de arte</a>
+            <ul>
+                <li><a href="documento 2.html" target="pintura">Pintura</a>
+            </ul>
+        </li>
+        <li><a href="documento 3.html" target="proposito de la pagina">acerca de</a>
+            <ul>
+                <li><a href="documento 3.html"target="proposito de la pagina">Proposito de la pagina</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<!--primera section-->
+<br>
+<section>
+    <div class="script1">
+        <script src="recetario.js"></script>
+    </div>
+    <h2>¿Qué es el Arte?</h2>
+        <p class="parrafo1">Actividad en la que el hombre recrea, con una finalidad estética, un aspecto de la realidad o un sentimiento en formas bellas valiéndose de la materia, la imagen o el sonido.</p>
+        <br>
+<div class="centrar"> 
+    <img id="img-centrar" src="Imagenes/pintura.jpg" alt="Arte abstracto"/>
+</div>  
+
+</section>
+
+<!--segunda section-->
+
+<section>
+    <h2>¿Qué es la pintura?</h2>
+        <p class="parrafo1">La pintura es el arte de la representación gráfica utilizando pigmentos mezclados con otras sustancias aglutinantes orgánicas o sintéticas.</p>
+        <br>
+        <br>
+    <h2 class="venta">¡TOMA CURSOS EN LINEA DE PINTURA Y DIBUJO!</h2>
+</br>
+<h2>¡Tenemos la mejor calidad de videos!</h2>
+<div class="centrar2">
+    <video id="video"src="video/pintando polilla.mp4" width="1000" controls></video>
+</section>
+
+<!--3° section-->
+<h2>Servicios de Especiales</h2>
+<section id="info">
+    <div id="servicios">
+        <div id="botonera">
+            <ul>
+                <li><a href="#info" onclick="mostrar()">Dibujo digital</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="servicios2">
+        <div id="didigital" style="display: none;">
+            <img class="digi" src="imagenes/pexels-cottonbro-4125508.jpg" alt="proximamente clase de dibujo digital">
+        </div>
+    </div>
+</section>
+
+<!--4° section-->
+
+<section>
+    <h2>QUE DICEN NUESTROS CLIENTES</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="Rostros/pexels-katie-e-3671083.jpg" alt="" width="200">
+            <div class="contenido-texto-card">
+                <h4>Lorena</h4>
+                    <p> La verdad no creei que iba a llegar a ser una artista profesional, estoy agredecida con las enseñanzas que me dieron.</p>
+        </div>
+            </div>
+    <div class="cards">
+        <div class="card">
+            <img src="Rostros/pexels-italo-melo-2379005.jpg" alt="" width="200">
+                <div class="contenido-texto-card">
+                    <h4>Enrique</h4>
+                    <p>El aprendisaje es muy intuitivo y dinamico, la verdad me sorprendio bastante, llege a aprender muchas cosas en muy poco tiempo,recomiendo el curso totalmente.</p>
+            </div>   
+        </div>
+    </div>
+</section>
+</br>
+<h2>Precios de los Cursos</h2>
+<h2 id="respuesta">ninguno</h2>
+
+
+<div id="precio1" onmouseover="texto.innerHTML = colores[1]" onmouseout="texto.innerHTML = colores[0]">
+<div>
+    <h3>Pintura</h3>
+</div>
+</div>
+
+<div id="precio2" onmouseover="texto.innerHTML = colores[2]" onmouseout="texto.innerHTML = colores[0]">
+<div>
+    <h3>Dibujo</h3>
+</div>
+</div>
+
+<div id="precio3" onmouseover="texto.innerHTML = colores[3]" onmouseout="texto.innerHTML = colores[0]">
+<div>
+    <h3>Escultura</h3>
+</div>
+</div>
+
+<div id="precio4" onmouseover="texto.innerHTML = colores[4]" onmouseout="texto.innerHTML = colores[0]">
+<div>
+    <h3>Proximamente:Dibujo digital</h3>
+</div>
+</div>
+
+
+<script type="text/javascript">
+
+var colores = ["ninguno","500$","1000$","1500$","2000$"];
+var texto = document.getElementById("respuesta")
+
+</script>
+<footer>
+</br>
+</br>
+<p class="parrafo2">Contacto: 1130799827 </p>
+<p>E-mial:artesublime@hotmail.com</p>
+</br>
+    Derechos Reservados &copy; Recflex / Jesus Tomas Perez Hurtado 2021
+</footer>
+</div>
+<script src="recetario2.js"></script>
+</body>
+<html>

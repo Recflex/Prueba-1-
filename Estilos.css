@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	Background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'ABeeZee', sans-serif;
+	background:url(Imagenes/Blanco.jpg)	
+}
+h1 {
+	height: 100px;
+	width: 100%;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 100px;
+	margin:0px 0px;
+	border:solid 1px;
+	font-family:Copperplate Gothic Light;
+	text-align:center;
+	color:#000000;
+	background-color:rgba(255, 255, 255, 0.76);
+}
+.imagen_logo {
+	position: absolute;
+	left: 55px;
+	top: 1px;
+}
+/*Botonera*/
+.contenedor{
+	width: 100%;
+	margin:0 auto;
+	overflow:hidden;
+}	
+#header {
+	background: #36d1dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #36d1dc, #5b86e5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #36d1dc, #5b86e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	text-align: center;
+	height: 50px;
+	line-height: 0px;
+	padding: 10px;
+	font-family: 'ABeeZee', sans-serif;
+	border:solid 2px;
+	margin: 1px;
+}
+ul li {
+	list-style: none;
+	display: inline-block;
+}
+nav li a{
+	text-decoration: none;
+	height: 30px;
+	width: 200px;
+	line-height: 30px;
+	border-radius: 10px;
+	border:solid 2px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	margin: -10px 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav li a:hover {
+	background-color: rgb(210, 147, 30);
+
+}
+nav > li {
+	float: left;
+}
+nav li ul {
+	display:none;
+	position: absolute;
+	min-width:140px;
+}
+nav li:hover > ul {
+	display:block;
+}
+nav li ul li{
+	position: relative;
+	display:block;
+	margin: 10px;
+	padding: 5px;
+}
+nav li ul li{
+	right: 55px;
+	top: 4px;
+}
+
+/*section 1*/
+.script1 h2{
+	color: rgb(255, 255, 255);
+}
+.script1 { 
+	color: rgb(255, 255, 255);
+	font-family: 'ABeeZee', sans-serif;
+	width: 300px;
+	height: 200px;
+	margin: auto;
+	border-radius:20px;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+	border: solid 1px rgb(0, 0, 0);
+	text-align: center;
+	background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #12c2e9, #c471ed, #f64f59); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+section h2{
+	font-size: 2em;
+	text-align:center;
+	font-family: 'Bebas Neue', cursive;
+	padding: 10px;
+	color:navy
+}
+h2{
+	font-size: 2em;
+	text-align:center;
+	font-family: 'Bebas Neue', cursive;
+	padding: 10px;
+	color:navy
+}
+.parrafo1{
+	font-family: 'ABeeZee', sans-serif;
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+.parrafo2{
+	font-family: 'ABeeZee', sans-serif;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+.centrar{
+	width: 100%;
+}
+#img-centrar {
+	width: 50%;
+	display: block;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/*section 2*/
+
+.venta {
+	color: rgb(0, 0, 0);
+	text-align: center;
+	background-color: rgba(138, 138, 138, 0.87);
+	height:50px;
+	line-height: 50px;
+}
+.centrar2{
+	width: 100%;
+}
+video {
+	width: 70%;
+	display: block;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*section 3*/
+
+#info{
+    background-color: rgba(151, 150, 150, 0.459);
+    text-align: center;
+    height: 600px
+}
+#botonera ul{
+    display: inline-block;
+
+}
+#botonera ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+#botonera ul li a{
+    background: #c33764; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c33764, #1d2671); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c33764, #1d2671); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(255, 255, 255);
+	font-size: 50px;
+	font-family: 'Bebas Neue', cursive;
+    display: inline-block;
+	border-radius: 20px;
+    text-decoration:none;
+    box-sizing: border-box;
+	margin: -10px;
+	width: 300px;
+	height: 100px;
+	line-height: 100px;
+    
+}
+.digi{
+	border-radius: 20px;
+	width: 100%;
+    max-width:100%;
+    overflow: hidden;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+}
+#didigital{
+	width: 100%;
+	max-width: 600px;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Que dicen los clientes*/
+
+.cards{
+	width: 100%;
+	justify-content: space-evenly;
+	margin: auto;
+}
+.cards .card{
+	width: 100%;
+	background: rgba(0, 119, 255, 0.589);
+	display: flex;
+	height: 150px;
+	justify-content: space-evenly;
+	border-radius: 2px;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+	margin-left: auto;
+	margin-right: auto;
+}
+.cards .card img{
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border: 3px solid cornflowerblue;
+	border-radius: 50%;
+	display: block;
+	padding: 10px;
+}
+.cards .card > .contenido-texto-card {
+	width: 60% ;
+	color: rgb(0, 0, 0);
+}
+.cards .card > .contenido-texto-card {
+	font-weight: 300;
+	padding-top: 5px;
+}
+#respuesta { 
+    font: bold 2em verdana;
+    color: purple; 
+    text-align: center; 
+}
+    #precio1, #precio2, #precio3, #precio4 {
+    display: inline-block; 
+    width: 400px;
+    max-width:100%;
+    height: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 35px;
+    text-align: center;
+	line-height: 200px;
+	font-size: 20px;
+    text-shadow:2px 2px 2px rgb(0, 0, 0) ;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 10px;  
+}
+    #precio1{   
+	background: #40e0d0; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #40e0d0, #ff8c00, #ff0080); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+    #precio2 {    
+	background: #bdc3c7; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #bdc3c7, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+    #precio3 { 
+	background: #c31432; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #c31432, #240b36); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #c31432, #240b36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+    #precio4 { 
+	background: #833ab4; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #833ab4, #fd1d1d, #fcb045); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #833ab4, #fd1d1d, #fcb045); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+aside {
+	background-color: rgb(0, 255, 170);
+	text-align: center;
+	height: 300px;
+	line-height: 300px;
+}
+/*footer*/
+
+footer {
+	height: 200px;
+	clear: both;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+hr {
+	border:solid 1px;
+}
+@media screen and (max-width:600px) and (max-height:1024px){
+#header { 
+	width: 100%;
+}}
+@media screen and (max-width:600px) and (max-height:1024px){
+h1{
+	width: 100%;
+}}
+@media screen and (max-width:100px) and (max-height:1024px){
+.imagen_logo{
+	width: 100%;
+}}
+@media screen and (max-width:600px) and (max-height:1024px){
+	nav li a {
+	width: 100%;
+}}
+@media screen and (max-width:600px) and (max-height:1024px){
+	.digi{
+	width: 100%;
+}}
+@media screen and (max-width:600px) and (max-height:1024px){
+	#didigital{
+	width: 100%;
+}}
+@media screen and (max-width:600px) and (max-height:1024px){
+	#precio1, #precio2, #precio3, #precio4{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}}
+
+
